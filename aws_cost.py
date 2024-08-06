@@ -6,8 +6,8 @@ from datetime import datetime
 client = boto3.client('ce')
  
 # Define the time period for the cost report
-start_date = '2024-08-01'
-end_date = '2024-08-05'
+start_date = '2024-07-25'
+end_date = '2024-08-06'
  
 # Get cost and usage for the specified period
 response = client.get_cost_and_usage(
