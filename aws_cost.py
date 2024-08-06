@@ -1,4 +1,4 @@
-[11:17 PM] Rajput, Raj Singh
+
 import boto3
 from datetime import datetime
  
